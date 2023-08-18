@@ -15,23 +15,33 @@
 
   /*
    * 3. 생성자
+   (1) 기본 생성자
     - 생성자를 실행시키지 않고서는 객체 생성 불가
     - 생성자가 반드시 존재
     - 하나 이상 가질 수 있다.
     
     참고) 생성자 선언 생략하면 -> 기본 생성자 자동 추가
 
+   (2) 생성자 선언
+    - class 이름과 동일하다.
+    - return 값 없다
       
    */
 public class Car {
-    //필드
+   /*
+   *필드 공부 내용. 생성자 다루면서 주석처리
+   //필드
     String company = "현대자동차";
     String model = "그랜저";
     String color = "검정";
     int maxSpeed = 350;
     int speed;
-    /*
+   
     *기본 생성자 자동으로 추가되있는 상태 
     public Car()
-    */
+   */
+
+   //생성자 선언
+   Car(String color, int cc){
+   }
 }
